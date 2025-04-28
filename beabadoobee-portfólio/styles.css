@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+:root {
+    --cor-principal: #ffffff;
+    --cor-secundaria: #ff970fec;
+    --cor-destaque: #a77212;
+}
+
+
+
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+.lead{
+    color: var(--cor-principal);
+}
+
+.Top2 {
+    color: rgb(206, 146, 17);
+   }
+
+a, .btn-link:hover {
+    color: rgb(255, 115, 0);
+}
+
+a:hover{
+    color: var(--cor-destaque);
+}
+
+body {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card{
+    color: rgb(255, 153, 0);
+}
+
